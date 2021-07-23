@@ -50,4 +50,4 @@ app.post('/', async (req, res) => {
 	isOpen.setState(true)
 })
 
-app.listen(process.env.PORT || 3000)
+app.listen(8080)
